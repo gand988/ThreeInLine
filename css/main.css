@@ -1,0 +1,28 @@
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+				box-sizing: border-box;
+}
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+
+.square{
+  display: inline-block;
+  height: 50px; 
+  width: 50px; 
+  border: 1px solid black; 
+  margin: 5px;
+  background-color: red;
+}
+.cls_black{
+  background-color: black;
+}
+.cls_done{
+  background-color: greenyellow;
+}
